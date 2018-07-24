@@ -1,0 +1,11 @@
+tasks:
+- name: start sleep x
+  cmd: bash
+  args:
+  - -c
+  - sleep 22
+general:
+  name: start sleep y
+  cmd: python
+  args:
+    - /Users/vink/hand/git/docker-files/wiki-init/init-config.py
